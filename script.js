@@ -34,7 +34,7 @@ async function getJokes() {
 
 function tellMeAJoke(joke) {
   VoiceRSS.speech({
-    key: '',
+    key: 'YOUR_API_KEY_HERE',
     src: joke,
     hl: 'en-us',
     v: 'Linda',
